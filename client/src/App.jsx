@@ -8,7 +8,7 @@ function App() {
   const [isUpdating, setIsUpdating] = useState(false);
   const [todoId, setTodoId] = useState("");
 
-  const baseURL = "http://localhost:5001";
+  const baseURL = "https://todo-app-fullstack-5.onrender.com";
 
   useEffect(() => {
     getAlltoDo(setTodo);
