@@ -54,7 +54,7 @@ input {
   display: flex;
   gap: 0.5rem;
 }
-.icon{
+.icon {
   cursor: pointer;
-  font-size:20px;
+  font-size: 20px;
 }

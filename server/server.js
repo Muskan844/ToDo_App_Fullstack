@@ -15,8 +15,6 @@ app.use(express.json());
 app.use(cors());
 app.use(router);
 
-
-
 connectDb().then(() =>
   app.listen(PORT, () => {
     console.log(`Server is up on the port ${PORT}`);
