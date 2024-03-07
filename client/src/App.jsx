@@ -8,7 +8,7 @@ function App() {
   const [isUpdating, setIsUpdating] = useState(false);
   const [todoId, setTodoId] = useState("");
 
-  const baseURL = "http://localhost:5000";
+  const baseURL = "http://localhost:5001";
 
   useEffect(() => {
     getAlltoDo(setTodo);
